@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form </title>
+        <style type="text/css">
+
+            body{
+                background-color: rgb(22, 138, 149);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .form-control{
+                text-align: left;
+                margin-bottom: 25px;
+            }
+
+            form{
+                margin: 50px auto;
+                padding: 30px 30px;
+                max-width: 450px;
+                background-color: rgb(255, 255, 255);
+            }
+
+            .form-control input,
+            .form-control select,
+            .form-control textarea{
+                display: block;
+                padding: 10px;
+                width: 95%;
+            }
+             
+            .form-control input[type="radio"],
+            .form-control input[type="checkbox"]{
+                display: inline-block;
+                width:"auto"
+            }
+
+            button{
+                display: block;
+                width: 100%;
+                padding: 10px 10px;
+                background-color: rgb(41, 103, 134);
+            }
+        </style>
+    </head>
+    <body> 
+        <h1 style ="text-align:center ;">CodeCrush Survey Form</h1>
+        <form style="text-align: center;">
+            
+            <fieldset>
+            <div class="form - control">
+            <label style="display: block; margin-bottom: 10px;">Name</label>
+            <input type="text" name="Name" placeholder="Enter Your Name">
+            </div> <br>
+
+            <div class="form - control">
+                <label style="display: block; margin-bottom: 10px;">Email</label>
+                <input type="text" name="Name" placeholder="Enter Your Email">
+                </div><br>
+
+                <div class="form - control">
+                    <label style="display: block; margin-bottom: 10px;">Age</label>
+                    <input type="text" name="Name" placeholder="Enter Your Age">
+                    </div><br>
+
+                    <div class="form - control">
+                        <label style="display: block; margin-bottom: 10px;">Which option best describes you ?</label>
+                        <select>
+                            <option>Student</option>
+                            <option>Intern</option>
+                            <option>professional</option>
+                            <option>Other</option>
+                        </select>
+                        </div><br>
+
+                        <div class="form - control">
+                            <label style="display: block; margin-bottom: 10px;">Would you recommend CodeCrush to a friend ?</label>
+                            <input type="radio" name="choice"> Yes
+                            <input type="radio" name="choice"> no
+                            <input type="radio" name="choice"> May be
+                            </div><br>
+
+
+                            <div class="form - control">
+                                <label style="display: block; margin-bottom: 10px;">Languages and Frameworks known</label>
+                                <input type="checkbox" name="select"> C
+                                <input type="checkbox" name="select"> C++
+                                <input type="checkbox" name="select"> Java
+                                <input type="checkbox" name="select"> Python
+                                </div><br>
+
+                                <div class="form - control">
+                                    <label style="display: block; margin-bottom: 10px;">Any Comments or Suggestions</label>
+                                    <textarea  placeholder="Enter your comment here"></textarea>
+                                    </div><br>
+                
+
+               <button type="submit">Submit</button>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
